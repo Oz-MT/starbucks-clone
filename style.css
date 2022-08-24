@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 25rem 2.5rem 14rem;
+  border-bottom: 2.5px solid rgb(232, 229, 229);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .left img {
+  width: 5rem;
+  margin-right: 4rem;
+}
+
+.navbar .left a {
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+  font-weight: 750;
+}
+
+.navbar .right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .right .location {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .right .location a {
+  margin: 0 4rem 0 1.5rem;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.navbar .right .location i {
+  font-size: 2.1rem;
+}
+
+.navbar .right .btn {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 0.6rem 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  font-weight: 600;
+}
+
+.navbar .right .join {
+  margin-left: 1.5rem;
+  background-color: black;
+  color: #fff;
+}

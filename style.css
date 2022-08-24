@@ -209,3 +209,36 @@ body {
 .links .list {
   padding: 0 15%;
 }
+
+.logos {
+  text-align: center;
+  padding: 2rem;
+}
+
+.logos i {
+  font-size: 3.2rem;
+  margin-right: 1.5rem;
+}
+
+.footer-top {
+  text-align: center;
+  padding: 2rem;
+}
+
+.footer-top span {
+  margin: 0 2rem;
+}
+
+.footer-top a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.footer-bottom p {
+  opacity: 0.6;
+  font-size: 1.5rem;
+}

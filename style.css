@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.5rem 25rem 2.5rem 14rem;
+  padding: 2.5rem 12% 2.5rem 7.2%;
   border-bottom: 2.5px solid rgb(232, 229, 229);
 }
 
@@ -77,4 +77,102 @@ body {
   margin-left: 1.5rem;
   background-color: black;
   color: #fff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: 50% 50%; */
+  padding: 3rem 12%;
+  row-gap: 3rem;
+}
+
+.container img {
+  width: 100%;
+}
+
+.container .first-right {
+  background-color: #1e3932;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .first-right a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid #fff;
+  padding: 1rem 1.2rem;
+  border-radius: 2rem;
+  margin-top: 7rem;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #faaa5a;
+  color: #1e3932;
+}
+
+.text h1 {
+  font-size: 5rem;
+  font-weight: 550;
+  letter-spacing: 0.3rem;
+  padding: 0 13%;
+  text-align: center;
+}
+
+.text p {
+  font-size: 2.6rem;
+  text-align: center;
+  line-height: 4rem;
+  margin: 2.8rem 0 3.5rem 0;
+  font-weight: 500;
+}
+
+.orange p {
+  padding: 0 13%;
+}
+
+.container .btn {
+  text-decoration: none;
+  color: black;
+  font-size: 1.7rem;
+  font-weight: 550;
+  border: 1px solid;
+  padding: 0.7rem 1.2rem;
+  border-radius: 2rem;
+}
+
+.container .pink {
+  background-color: #fa91aa;
+}
+
+.container .pink p {
+  padding: 0 18%;
+}
+
+.container .red {
+  background-color: #f06464;
+  color: #fff;
+}
+
+.container .red p {
+  padding: 0 13%;
+}
+
+.container .red_btn {
+  border-color: #fff;
+  color: #fff;
+}
+
+.rewards {
+  text-align: center;
+  padding: 3rem 33%;
+  font-size: 1.5rem;
 }

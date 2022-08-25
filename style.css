@@ -43,6 +43,11 @@ body {
   font-weight: 750;
 }
 
+.navbar .left a:hover {
+  color: #124738;
+  opacity: 0.8;
+}
+
 .navbar .right {
   display: flex;
   align-items: center;
@@ -51,6 +56,11 @@ body {
 .navbar .right .location {
   display: flex;
   align-items: center;
+}
+
+.navbar .right .location:hover {
+  color: #124738;
+  opacity: 0.8;
 }
 
 .navbar .right .location a {
@@ -71,6 +81,14 @@ body {
   font-size: 1.5rem;
   border-radius: 2rem;
   font-weight: 600;
+}
+
+.navbar .right .sign:hover {
+  background-color: rgb(237, 237, 237);
+}
+
+.navbar .right .join:hover {
+  opacity: 0.7;
 }
 
 .navbar .right .join {
@@ -101,6 +119,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.container .first-right a:hover {
+  background-color: #295e50;
 }
 
 .container .first-right h2 {
@@ -156,6 +178,10 @@ body {
   border-radius: 2rem;
 }
 
+.container .btn:hover {
+  background-color: rgba(183, 183, 183, 0.25);
+}
+
 .container .pink {
   background-color: #fa91aa;
 }
@@ -185,6 +211,14 @@ body {
   border-bottom: 2.5px solid rgb(232, 229, 229);
 }
 
+.rewards a {
+  color: black;
+}
+
+.rewards a:hover {
+  text-decoration: none;
+}
+
 .links {
   padding: 3rem 12% 3rem 12%;
   display: grid;
@@ -201,13 +235,18 @@ body {
 .links li {
   list-style-type: none;
   margin-bottom: 3rem;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   opacity: 0.6;
 }
 
 .links li a {
   text-decoration: none;
   color: black;
+}
+
+.links li a:hover {
+  color: black;
+  font-weight: 600;
 }
 
 .links .list {

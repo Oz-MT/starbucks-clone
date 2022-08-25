@@ -260,6 +260,7 @@ body {
 .logos {
   text-align: center;
   padding: 2rem;
+  height: 5rem;
 }
 
 .logos i {
@@ -280,6 +281,10 @@ body {
 .footer-top a {
   text-decoration: none;
   color: black;
+}
+
+.footer-top a:hover {
+  text-decoration: underline;
 }
 
 .footer-bottom {

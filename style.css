@@ -226,6 +226,7 @@ body {
 .logos i {
   font-size: 3.2rem;
   margin-right: 1.5rem;
+  color: black;
 }
 
 .footer-top {
@@ -503,14 +504,17 @@ body {
     border: none;
     display: inline;
     font-size: 1.8rem;
+    cursor: pointer;
   }
 
   .footer-top {
     padding: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   .footer-top span {
-    margin: 0 1.8rem;
+    visibility: hidden;
   }
 
   .footer-top a {
@@ -572,16 +576,8 @@ body {
     margin: 0 0;
   }
 
-  .footer-top a {
-    font-size: 1rem;
-  }
-
   .footer-bottom {
     padding: 2rem;
-  }
-
-  .footer-bottom p {
-    font-size: 1rem;
   }
 }
 

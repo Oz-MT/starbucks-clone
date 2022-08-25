@@ -79,6 +79,10 @@ body {
   color: #fff;
 }
 
+.navbar .hamburger {
+  display: none;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -270,7 +274,7 @@ body {
   }
 
   .rewards {
-    font-size: 1.3rem;
+    padding: 2.8rem 27%;
   }
 
   .links h3 {
@@ -307,7 +311,7 @@ body {
   }
 
   .rewards {
-    font-size: 1.2rem;
+    padding: 2.6rem 23%;
   }
 
   .links h3 {
@@ -367,7 +371,8 @@ body {
   }
 
   .rewards {
-    font-size: 1rem;
+    font-size: 1.4rem;
+    padding: 2.4rem 18%;
   }
 
   .links h3 {
@@ -393,10 +398,51 @@ body {
 @media (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
+    row-gap: 0;
+    padding: 2rem 8% 0.5rem 8%;
+  }
+
+  .navbar {
+    padding: 2rem 7% 2rem 7%;
+  }
+
+  .container .orange-img {
+    grid-row: 3;
+  }
+
+  .container .red-img {
+    grid-row: 7;
+  }
+
+  .container .first-right {
+    padding: 3rem 8%;
+    margin-bottom: 2rem;
+  }
+
+  .container .first-right h2 {
+    letter-spacing: 0.04rem;
+    font-size: 2rem;
+  }
+
+  .container .first-right a {
+    margin-top: 3rem;
+  }
+
+  .navbar .left a,
+  .navbar .right .location,
+  .navbar .right .btn {
+    display: none;
+  }
+
+  .navbar .hamburger {
+    display: inline;
+    font-size: 2.2rem;
+    opacity: 0.6;
   }
 
   .text {
     padding: 5rem 5%;
+    margin-bottom: 2rem;
   }
 
   .text h1 {
@@ -414,15 +460,53 @@ body {
     padding: 0.6rem 1.1rem;
     border-radius: 1.8rem;
   }
+
+  .rewards {
+    font-size: 1.3rem;
+    padding: 2.2rem 15%;
+  }
+
+  links .logos i {
+    font-size: 2.9rem;
+    margin-right: 1.4rem;
+  }
+
+  .footer-top {
+    padding: 1.5rem;
+  }
+
+  .footer-top span {
+    margin: 0 1.8rem;
+  }
+
+  .footer-top a {
+    font-size: 1.4rem;
+  }
+
+  .footer-bottom {
+    padding: 1.8rem;
+  }
+
+  .footer-bottom p {
+    font-size: 1.3rem;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
+  .container .first-right h2 {
+    letter-spacing: 0.03rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
   .text {
     padding: 4rem 5%;
   }
 
   .text h1 {
     font-size: 2.7rem;
+    letter-spacing: 0.2rem;
+    padding: 0 8%;
   }
 
   .text p {
@@ -435,5 +519,10 @@ body {
     font-size: 1.4rem;
     padding: 0.5rem 1rem;
     border-radius: 1.8rem;
+  }
+
+  .rewards {
+    font-size: 1.2rem;
+    padding: 1rem 15%;
   }
 }
